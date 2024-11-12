@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+nav img {
+  width: 8rem;
+}
+nav .icons {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav i {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.middle {
+  background: url(../sumsung/week45_HP-KV-Mo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.middle h1 {
+  color: white;
+  font-family: arial, san sans-serif;
+  font-size: 45px;
+}
+.middle p {
+  color: white;
+  font-family: arial, san sans-serif;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+.middle button {
+  width: 8rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.seasons {
+  text-align: center;
+  font-family: arial, san-serif;
+  padding: 2rem 1rem;
+}
+.seasons h1 {
+  font-size: 28px;
+}
+.seasons h2, .seasons a {
+  font-size: 18px;
+}
+.seasons .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.seasons .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.sales {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.sales .item {
+  background-color: rgb(244, 244, 244);
+  padding: 1rem;
+  border-radius: 20px;
+}
+.sales .item img {
+  width: 10rem;
+}
+
+.second {
+  background: url(../sumsung/SDSAC-8333-TabS10-ShopApp-Banner-EBF-1440x330.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.second p {
+  color: white;
+  font-family: arial, san sans-serif;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+.second h1 {
+  color: white;
+  font-family: arial, san sans-serif;
+  font-size: 40px;
+}
+.second button {
+  width: 12rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.second button img {
+  height: 20px;
+}/*# sourceMappingURL=styles.css.map */

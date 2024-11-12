@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    img{
+        width: 8rem;
+    }
+    & .icons{
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+    & i{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
