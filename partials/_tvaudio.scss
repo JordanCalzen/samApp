@@ -1,0 +1,17 @@
+.tvradio{
+    background: url(/sumsung/W46_LoB1_M_360x640-2x\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+    & h1{
+        color: black;
+        font-size: 36px;
+        line-height: 43px;
+        font-family: arial, san-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+}

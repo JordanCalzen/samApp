@@ -1,0 +1,35 @@
+.forOffers{
+    padding: 1rem;
+    margin-top: 1rem;
+    h1{
+        color: black;
+        font-size: 36px;
+        line-height: 43px;
+        font-family: arial, san-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .specialOffers{
+        padding-top: 1.5rem;
+    }
+    .offers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    p{
+        font-size: 23px;
+        font-family: arial, san-serif;
+        line-height: 30px;
+        font-weight: 700;
+        
+
+    }
+    & .offer{
+        
+        img{
+            width: 18rem;
+        }
+    }
+}

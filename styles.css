@@ -130,4 +130,126 @@ nav i {
 }
 .second button img {
   height: 20px;
+}
+
+.forOffers {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.forOffers h1 {
+  color: black;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.forOffers .specialOffers {
+  padding-top: 1.5rem;
+}
+.forOffers .offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.forOffers p {
+  font-size: 23px;
+  font-family: arial, san-serif;
+  line-height: 30px;
+  font-weight: 700;
+}
+.forOffers .offer img {
+  width: 18rem;
+}
+
+.samgalaxy {
+  background: url(/sumsung/bcc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+.samgalaxy h1 {
+  color: black;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.samgalaxy .galaxynavs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.3rem;
+  margin-top: 1rem;
+}
+.samgalaxy .galaxynavs a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+}
+.samgalaxy .galaxynavs .galaxyn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.samgalaxy .s24ultra {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.samgalaxy .s24ultra p {
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+}
+.samgalaxy .s24ultra button {
+  width: 8rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+.samgalaxy .s24ultra a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.tvradio {
+  background: url(/sumsung/W46_LoB1_M_360x640-2x\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+.tvradio h1 {
+  color: black;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
