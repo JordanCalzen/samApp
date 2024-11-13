@@ -69,6 +69,9 @@ nav i {
 }
 .seasons h2, .seasons a {
   font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
 }
 .seasons .links {
   display: flex;
@@ -164,7 +167,7 @@ nav i {
 }
 
 .samgalaxy {
-  background: url(/sumsung/bcc.jpg);
+  background: url(/sumsung/SDSAC-7185-S24U-HP-LOB-FullBleed-MB-720x1280\ \(1\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -181,27 +184,27 @@ nav i {
   text-align: center;
 }
 .samgalaxy .galaxynavs {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 1rem 0.3rem;
   margin-top: 1rem;
-}
-.samgalaxy .galaxynavs a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  font-family: arial, san-serif;
-  font-weight: 600;
 }
 .samgalaxy .galaxynavs .galaxyn {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
+.samgalaxy .galaxynavs .galaxyn a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+}
 .samgalaxy .s24ultra {
   position: absolute;
   bottom: 0;
+  width: 400px;
+  right: 50%;
+  transform: translate(50%);
   padding-bottom: 6rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -246,10 +249,330 @@ nav i {
   position: relative;
 }
 .tvradio h1 {
-  color: black;
+  color: white;
   font-size: 36px;
   line-height: 43px;
   font-family: arial, san-serif;
   font-weight: 700;
   text-align: center;
+}
+.tvradio .tvnav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.tvradio .tvnav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+}
+.tvradio .save {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  right: 50%;
+  transform: translate(50%);
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tvradio .save p {
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+  color: white;
+}
+.tvradio .save button {
+  width: 8rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  color: black;
+  background-color: white;
+}
+
+.homeAppliances {
+  background: url(/sumsung/Early-BF-DA-LOB-M\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+.homeAppliances h1 {
+  color: black;
+  font-size: 34px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.homeAppliances .appliances {
+  padding: 1rem 0.3rem;
+  margin-top: 1rem;
+}
+.homeAppliances .appliances .appliancenav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.homeAppliances .appliances .appliancenav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+}
+.homeAppliances .appliance2 {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  right: 50%;
+  transform: translate(50%);
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeAppliances .appliance2 p {
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+}
+.homeAppliances .appliance2 button {
+  width: 9rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+.homeAppliances .appliance2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.myunwrap {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.myunwrap h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.myunwrap .unwrap {
+  padding: 2rem 0;
+}
+.myunwrap .unwrap img {
+  width: 24rem;
+}
+.myunwrap h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.myunwrap p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 3rem;
+}
+.myunwrap a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 17px;
+}
+
+.explore {
+  background: url(/sumsung/06-SmartThingsBanner-FT03-Mo\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explore h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.explore p {
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+  color: white;
+  color: black;
+}
+.explore button {
+  width: 8rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  color: black;
+  background-color: white;
+  color: white;
+  background-color: black;
+}
+
+.sustain {
+  background: url(/sumsung/EarthDay_CRN_MB_720X1280_2\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.sustain h2 {
+  font-size: 34px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.sustain .sustainnav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.sustain .sustainnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+}
+.sustain .sustain2 {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  right: 50%;
+  transform: translate(50%);
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sustain .sustain2 h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+.sustain .sustain2 p {
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+}
+.sustain .sustain2 button {
+  width: 9rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+.learn {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+.learn h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: arial, san-serif;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  padding-bottom: 1.5rem;
+}
+.learn .learmimg {
+  padding: 2rem 0;
+  width: 300px;
+}
+.learn .learmimg img {
+  width: 24rem;
+  border-radius: 20px;
+}
+.learn h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.learn p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 3rem;
+}
+.learn a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: arial, san-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 18px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,5 @@
-.samgalaxy{
-    background: url(/sumsung/SDSAC-7185-S24U-HP-LOB-FullBleed-MB-720x1280\ \(1\).jpg);
+.homeAppliances{
+    background: url(/sumsung/Early-BF-DA-LOB-M\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -8,17 +8,17 @@
     position: relative;
     & h1{
         color: black;
-        font-size: 36px;
+        font-size: 34px;
         line-height: 43px;
         font-family: arial, san-serif;
         font-weight: 700;
         text-align: center;
     }
-    .galaxynavs{
+    .appliances{
         padding: 1rem .3rem;
         margin-top: 1rem;
-        
-        .galaxyn{
+    
+        .appliancenav{
             display: flex;
             justify-content: center;
             gap: 1rem;
@@ -33,13 +33,13 @@
             }
         }
     }
-    .s24ultra{
+    .appliance2{
         position: absolute;
         bottom: 0;
         width: 400px;
         right: 50%;
         transform: translate(50%);
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
         padding-left: 2rem;
         padding-right: 2rem;
         display: flex;
@@ -52,7 +52,7 @@
             padding: 1.3rem;
         }
         button{
-            width: 8rem;
+            width: 9rem;
             padding: 1rem 1rem;
             border-radius: 2rem;
             display: flex;justify-content: center;

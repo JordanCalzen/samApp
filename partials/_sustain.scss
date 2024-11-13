@@ -1,0 +1,68 @@
+.sustain{
+    background: url(/sumsung/EarthDay_CRN_MB_720X1280_2\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+
+    & h2{
+        font-size: 34px;
+        line-height: 32px;
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+
+    .sustainnav{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        & a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-family: arial, san-serif;
+            font-weight: 600;
+        }
+    }
+
+    .sustain2{
+        position: absolute;
+        bottom: 0;
+        width: 400px;
+        right: 50%;
+        transform: translate(50%);
+        padding-bottom: 4rem;
+        // padding-left: 2rem;
+        // padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h1{
+            @include h1;
+            font-size: 35px;
+            color: black;
+        }
+        & p{
+            font-size: 16px;
+            font-family: arial, san-serif;
+            font-weight: lighter;
+            padding: 1.3rem;
+        }
+        button{
+            width: 9rem;
+            padding: 1rem 1rem;
+            border-radius: 2rem;
+            display: flex;justify-content: center;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+        }
+    }
+}
